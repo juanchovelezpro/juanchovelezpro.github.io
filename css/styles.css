@@ -9,6 +9,7 @@ header {
 background-color: #1b2127;
 color: white;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 height: 90px;
@@ -18,7 +19,8 @@ height: 90px;
 
 .container{
 
-width: 1080px;
+max-width: 1080px;
+flex: 1;
 margin: 0 auto;
 display: inherit;
 justify-content: inherit;
@@ -104,6 +106,7 @@ height: 250px;
 background-color: #1b2127;
 color: whitesmoke;
 display:flex;
+flex-wrap: wrap;
 align-items: center;
 justify-content: space-between;
 
@@ -139,6 +142,7 @@ margin: 15px auto;
 padding: 10px;
 background-color: white;
 display: flex;
+flex-wrap: wrap;
 font-size: 18px;
 align-items: center;
 justify-content: space-around;
@@ -287,7 +291,66 @@ footer{
 color: white;
 background-color:#1b2127;
 display: flex;
+/* flex-wrap: wrap; */
 margin: auto;
 align-items: center;
 justify-content: space-between;
+}
+
+
+/* Desktop First Empezar desde el media query mas grande */
+
+@media screen and (max-width: 1024px){
+
+
+
+}
+
+@media screen and (max-width: 874px){
+
+.header{
+
+display: block;
+height: auto;
+
+
+}
+
+.header ol{
+
+display: block;
+
+}
+
+.header ol li{
+
+ height: 40px;
+
+}
+
+.header a{
+
+justify-content: center;
+
+}
+
+.header .logo{
+
+text-align: center;
+
+}
+
+
+}
+
+@media screen and (max-width: 480px){
+
+
+    
+}
+
+@media screen and (max-width: 320px){
+
+
+    
 }
