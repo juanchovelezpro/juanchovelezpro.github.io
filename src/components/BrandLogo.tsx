@@ -1,0 +1,45 @@
+export function BrandLogo() {
+  return (
+    <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="brand-bg" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#112743" />
+          <stop offset="1" stopColor="#081120" />
+        </linearGradient>
+        <linearGradient
+          id="brand-stroke"
+          x1="18"
+          y1="18"
+          x2="48"
+          y2="44"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#41D6FF" />
+          <stop offset="1" stopColor="#80F0D8" />
+        </linearGradient>
+      </defs>
+      <rect x="2" y="2" width="60" height="60" rx="18" fill="#07101C" />
+      <rect x="6" y="6" width="52" height="52" rx="16" fill="url(#brand-bg)" />
+      <rect x="6.5" y="6.5" width="51" height="51" rx="15.5" stroke="#1E3650" />
+      <path
+        d="M19 39.5H45C49.4 39.5 53 36.1 53 31.9C53 27.8 49.8 24.5 45.7 24.3C44.4 18.8 39.4 15 33.5 15C26.8 15 21.3 19.9 20.4 26.3C15.7 27.3 12.5 30.7 12.5 35C12.5 37.5 13.6 39.5 19 39.5Z"
+        stroke="url(#brand-stroke)"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M21 35.5L27.2 31.2L32.1 34.1L39.6 25.6L45 29.2"
+        stroke="#E4FBFF"
+        strokeWidth="2.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <circle cx="21" cy="35.5" r="2.2" fill="#41D6FF" />
+      <circle cx="27.2" cy="31.2" r="2.2" fill="#80F0D8" />
+      <circle cx="32.1" cy="34.1" r="2.2" fill="#41D6FF" />
+      <circle cx="39.6" cy="25.6" r="2.2" fill="#80F0D8" />
+      <circle cx="45" cy="29.2" r="2.2" fill="#41D6FF" />
+    </svg>
+  );
+}
