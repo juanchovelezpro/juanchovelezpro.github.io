@@ -60,7 +60,7 @@ export const portfolioContent: PortfolioContent = {
     title: 'Observability impact',
     points: [
       'Currently part of the observability team at Coupa, managing New Relic to keep telemetry actionable and cost-efficient.',
-      'Built centralized observability platforms with Grafana, Loki, Mimir, and Tempo for distributed systems visibility.',
+      'Designed Amazon Managed Prometheus as a centralized metrics layer across multiple clusters, improving shared visibility and consistency.',
       'Designed dashboards, alerts, and targeted telemetry strategies across metrics, logs, and traces to improve signal quality and reduce noise.'
     ]
   },

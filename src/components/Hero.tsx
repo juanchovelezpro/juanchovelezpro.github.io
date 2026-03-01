@@ -12,12 +12,12 @@ export function Hero({ content }: HeroProps) {
       label: 'roles across the path'
     },
     {
-      value: 'Grafana stack',
-      label: 'logs, metrics, traces'
+      value: 'AMP centralized',
+      label: 'multi-cluster metrics'
     },
     {
-      value: 'AMP + CW',
-      label: 'managed observability on AWS'
+      value: 'CW cross-account',
+      label: 'shared AWS visibility'
     }
   ];
   const signalItems = ['CI/CD', 'Cloud', 'IaC', 'Observability'];
